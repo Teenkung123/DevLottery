@@ -9,12 +9,23 @@ public final class DevLottery extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        getLogger().info("Loading config and sql...");
+
         this.config = new ConfigLoader(this);
-        this.sql = new SQLManager(this, config);
+        config.loadConfig();
+
+        this.sql = new SQLManager(config);
+        sql.connect();
+
+        getLogger().info(colorize("&aConfig and sql loaded."));
     }
 
     @Override
     public void onDisable() {
-        // Plugin shutdown logic
+        sql.disconnect();
+    }
+
+    public String colorize(String s) {
+        return s.replaceAll("&", "§");
     }
 }

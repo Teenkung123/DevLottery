@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/DevLottery.main.iml" filepath="$PROJECT_DIR$/.idea/modules/DevLottery.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.teenkung.DevLottery.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.teenkung.DevLottery.main.iml" />
     </modules>
   </component>
 </project>
