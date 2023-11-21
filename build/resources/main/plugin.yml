@@ -1,0 +1,4 @@
+name: DevLottery
+version: '1.0-SNAPSHOT'
+main: com.teenkung.devlottery.DevLottery
+api-version: '1.19'

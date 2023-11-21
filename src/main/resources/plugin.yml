@@ -1,0 +1,4 @@
+name: DevLottery
+version: '${version}'
+main: com.teenkung.devlottery.DevLottery
+api-version: '1.19'
